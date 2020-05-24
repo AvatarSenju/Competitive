@@ -20,7 +20,7 @@ int num_ways(string s, int n)
 int main()
 {
 
-    string s = "01";
+    string s = "21";
     int n = s.length();
     int a = num_ways(s, n);
     cout << a << endl;

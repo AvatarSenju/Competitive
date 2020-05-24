@@ -14,8 +14,8 @@ string encrypt(string s)
         }
         else
         {
-            res += to_string(count);
             res += ch;
+            res += to_string(count);
             count = 1;
             ch = s[i];
         }
