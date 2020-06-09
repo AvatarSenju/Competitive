@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//O(NlogN)
 vector<int> solve(vector<int> nums, int k)
 {
-    //O(NlogN)
 
     sort(nums.begin(), nums.end());
     int n = nums.size();
@@ -23,9 +23,10 @@ vector<int> solve(vector<int> nums, int k)
     return {};
 }
 
+//O(N)
 vector<int> solve1(vector<int> nums, int k)
 {
-    //O(N)
+
     unordered_map<int, int> mp;
     for (int i = 0; i < nums.size(); i++)
         mp[k - nums[i]] = i;
