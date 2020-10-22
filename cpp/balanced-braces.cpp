@@ -1,3 +1,5 @@
+//Program to check whether a string has valid brace sequence or not
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -46,8 +48,8 @@ int check(string s)
 int main()
 {
 
-    int a = check("([])[]({})");
-    int b = check("([)]");
+    int a = check("([a])[]({})");
+    int b = check("(b(x))");
     int c = check("((()");
 
     cout << a << " " << b << " " << c << endl;

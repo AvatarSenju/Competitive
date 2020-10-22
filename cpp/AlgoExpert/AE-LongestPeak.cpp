@@ -1,4 +1,4 @@
-// find longest contiguous array with peak
+// find length of longest contiguous array with peak
 #include <bits/stdc++.h>
 using namespace std;
 
